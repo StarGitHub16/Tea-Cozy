@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 40, 40);
+    color: seashell;
+    font-family: Helvetica;  
+    text-align: center;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.navbar {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 1rem 2rem; 
+  }
+  
+  .logo {
+    height: 50px; 
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .nav-links li{
+    margin-left: 1rem; 
+  }
+
+ .nav-links a:hover {
+    color: saddlebrown;
+ }
+
+ .tea-headers{
+  background-color: transparent;
+ }
+ 
+
+ /*Hero Section*/
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url("images/img-mission-background.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    border-radius: 15px;
+}
+
+.heroText {
+    margin: 0;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    border-radius: 15px;
+}
+
+/*Tea Month Section*/
+.teaMonth{
+  display: flex;
+ flex-direction: column;
+ 
+}
+
+.teaMonth-text {
+  margin: 1% 0;
+  padding: 1% 0;
+  line-height: 2;
+
+  font-size: 1.9rem;
+}
+
+.teaMonth-middle {
+  justify-content: space-between;
+  padding: 3% 3%;
+  
+}
+
+.teaMonth-middle > a > img {
+  width: 26%;
+  border-radius: 15px;
+  transition: all .3s ease-in-out;
+  
+}
+
+.teaMonth-bottom {
+
+}
+
+.teaMonth-bottom > a > img {
+  width: 26%;
+  border-radius: 15px;
+}
+
+.teaMonth-middle > a > img:hover {
+  opacity: 0.5;
+  
+}
+
+
+.teaMonth-bottom > a > img:hover {
+  opacity: 0.5;
+}
+
+
+/*Locations Section*/
+
+.locations {
+  background-image: url("./images/img-locations-background.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:600px;
+  border-radius: 15px;
+}
+
+.locations-top {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  text-align: center;
+  margin: 6% 30%;
+  padding: 1%;
+  background-color: transparent;
+  border-radius: 15px;
+}
+
+.locations-container{
+  display: flex;
+  justify-content: space-evenly;
+ background-color: transparent;
+ gap: 3%;
+ margin:10% 4%;
+}
+
+.locations-card {
+  line-height: 2;
+  text-align: center;
+  border-radius: 15px;
+  margin: 1% 0;   
+  padding: 0 3%;
+  font-size: 1.3rem;
+}
+
+/*Footer*/
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3% 0;
+  gap: 40px;
+}
+
+.credits {
+display: flex;
+padding: 1% 1%;
+
+}
